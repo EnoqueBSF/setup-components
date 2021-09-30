@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "nome": "Explore",
+    "link": "",
+    "icon": "",
+    "session": true,
+    "children": [
+      {
+        "id": 5,
+        "nome": "Ações Rápidas",
+        "link": "",
+        "icon": "actions",
+        "session": false,
+        "children": [
+          {
+            "id": 11,
+            "nome": "Ações Necessárias",
+            "link": "/actions-awaited",
+            "icon": "actions",
+            "session": false,
+            "children": []
+          },
+          {
+            "id": 7,
+            "nome": "Ações Aguardadas",
+            "link": "/actions-awaited",
+            "icon": "actions",
+            "session": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nome": "Home",
+        "link": "/home",
+        "icon": "home",
+        "session": false,
+        "children": []
+      },
+      {
+        "id": 3,
+        "nome": "Orçamento",
+        "link": "/budget",
+        "icon": "budget",
+        "session": false,
+        "children": []
+      },
+      {
+        "id": 4,
+        "nome": "Relatórios",
+        "link": "/reports",
+        "icon": "reports",
+        "session": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Administração de Sistema",
+    "link": "",
+    "icon": "",
+    "session": true,
+    "children": [
+      {
+        "id": 8,
+        "nome": "Gerenciar Usuários",
+        "link": "/users",
+        "icon": "user",
+        "session": false,
+        "children": []
+      },
+      {
+        "id": 9,
+        "nome": "Gerenciar Modelos de Propostas",
+        "link": "/models",
+        "icon": "proposal",
+        "session": false,
+        "children": []
+      },
+      {
+        "id": 10,
+        "nome": "Configurar Revisores",
+        "link": "/reviewers",
+        "icon": "revisor",
+        "session": false,
+        "children": []
+      }
+    ]
+  }
+]
